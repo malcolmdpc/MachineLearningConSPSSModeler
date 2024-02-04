@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>resumen avanzado.html</title>
+<meta charset="utf-8"/>
+<style>
+.details {visibility:hidden;}
+.workbookSyntaxBlock {background-color:#f2f2f2;margin:20px 0;padding:12px 0;} .workbookSyntaxBlock p { margin:0 0;}
+.workbookRichTextBlock {background-color:#f2f2f2;margin:20px 0;padding:12px 0;} .workbookRichTextBlock p { margin:0 0;}
+.logItem {margin: 16px 0;font-family: monospace;}
+.procedureTitle{color: #1d3649;font-weight: 600;font-size: 20px;line-height: 24px;font-family: monospace;}
+.pivot{color:#264A60;background-color:#FFFFFF;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#E0E0E0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:F9F9FB;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:F9F9FB;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #AEAEAE;}
+.hDR{border-top:1px none #AEAEAE;}
+.vCR{border-left:1px none #AEAEAE;}
+.vDR{border-left:1px none #AEAEAE;}
+.hCC{border-bottom:1px none #AEAEAE;}
+.hDC{border-bottom:1px none #AEAEAE;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #AEAEAE;}
+.pivot{margin: 80px 0;}
+.pivot thead.tr.th {padding:0px;border-spacing:0px}
+.hal{text-align:left} .hac{text-align:center} .har{text-align:right}
+.val{vertical-align:left} .vac{vertical-align:center} .var{vertical-align:right}
+</style>
+</head>
+<body>
+
+<div>
+<table class="pivot" data-rows="1,0,1,6,0,1" data-cols="2,2" data-heights="41,0,34,114,50" data-widths="98,264" data-curCounts="6,2" data-curSizess="6,2">
+<caption colspan="4">Resumen de procesamiento de casos</caption>
+<thead>
+<tr><th class="cornerLabels" colspan="2">&nbsp;</th><th>N</th><th>Porcentaje marginal</th></tr>
+</thead>
+<tbody data-rect="0,5,0,1">
+<tr><th rowspan="2" style="min-width:49px">Class</th><th style="min-width:49px">0</th><td class=" har" style="min-width:68px">80103</td><td class=" har" style="min-width:98px">92,6%</td></tr>
+<tr><th>1</th><td class=" har">6375</td><td class=" har">7,4%</td></tr>
+<tr><th colspan="2">Válidos</th><td class=" har">86478</td><td class=" har">100,0%</td></tr>
+<tr><th colspan="2">Perdidos</th><td class=" har">0</td><td class=" hal">&nbsp;</td></tr>
+<tr><th colspan="2">Total</th><td class=" har">86478</td><td class=" hal">&nbsp;</td></tr>
+<tr><th colspan="2">Subpoblación</th><td class=" har" title="a. La variable dependiente sólo tiene un valor observado en 84743 (100,0%) subpoblaciones.">84743<sup>a</sup></td><td class=" hal">&nbsp;</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="4">a.&nbsp;La variable dependiente sólo tiene un valor observado en 84743 (100,0%) subpoblaciones.</td></tr>
+</tfoot>
+</table>
+</div>
+</div>
+<div>
+<table class="pivot" data-rows="1,0,2,8,1,2" data-cols="2,8" data-heights="24,0,68,152,57" data-widths="102,745" data-curCounts="8,8" data-curSizess="8,8">
+<caption colspan="10">Resumen de los pasos</caption>
+<thead>
+<tr><th class="cornerLabels" rowspan="2" colspan="2">Modelo</th><th rowspan="2">Acción</th><th rowspan="2">Efecto(s)</th><th colspan="3">Criterios de ajuste de modelo</th><th colspan="2">Pruebas de selección de efecto</th></tr>
+<tr><th>AIC</th><th>normalizado</th><th>Logaritmo de la verosimilitud -2</th><th title="a. El chi-cuadrado para la entrada se basa en la prueba de puntuación.
+b. El chi-cuadrado para la eliminación se basa en la prueba de razón de verosimilitud.">Chi-cuadrado<sup>a,b</sup></th><th>gl</th><th>Sig.</th></tr>
+</thead>
+<tbody data-rect="0,7,0,7">
+<tr><th style="min-width:53px">Paso 0</th><th style="min-width:49px">0</th><td class=" hal" style="min-width:85px">Especificado</td><td class=" hal" style="min-width:81px">Intersección</td><td class=" har" style="min-width:73px">45515,754</td><td class=" har" style="min-width:82px">45525,122</td><td class=" har" style="min-width:98px">45513,754</td><td class=" har" style="min-width:98px">.</td><td class=" hal" style="min-width:63px">&nbsp;</td><td class=" hal" style="min-width:63px">&nbsp;</td></tr>
+<tr><th>Paso 1</th><th>1</th><td class=" hal">Especificado</td><td class=" hal">V14</td><td class=" har">12016,045</td><td class=" har">12034,781</td><td class=" har">12012,045</td><td class=" har">31743,869</td><td class=" har">1</td><td class=" har">&lt;,001</td></tr>
+<tr><th>Paso 2</th><th>2</th><td class=" hal">Especificado</td><td class=" hal">V4</td><td class=" har">9585,833</td><td class=" har">9613,936</td><td class=" har">9579,833</td><td class=" har">1941,868</td><td class=" har">1</td><td class=" har">&lt;,001</td></tr>
+<tr><th>Paso 3</th><th>3</th><td class=" hal">Especificado</td><td class=" hal">V12</td><td class=" har">8062,919</td><td class=" har">8100,390</td><td class=" har">8054,919</td><td class=" har">1275,503</td><td class=" har">1</td><td class=" har">&lt;,001</td></tr>
+<tr><th>Paso 4</th><th>4</th><td class=" hal">Especificado</td><td class=" hal">V8</td><td class=" har">7998,652</td><td class=" har">8045,490</td><td class=" har">7988,652</td><td class=" har">88,366</td><td class=" har">1</td><td class=" har">&lt;,001</td></tr>
+<tr><th>Paso 5</th><th>5</th><td class=" hal">Especificado</td><td class=" hal">V13</td><td class=" har">7959,420</td><td class=" har">8015,626</td><td class=" har">7947,420</td><td class=" har">41,061</td><td class=" har">1</td><td class=" har">&lt;,001</td></tr>
+<tr><th>Paso 6</th><th>6</th><td class=" hal">Especificado</td><td class=" hal">V5</td><td class=" har">7941,233</td><td class=" har">8006,807</td><td class=" har">7927,233</td><td class=" har">18,407</td><td class=" har">1</td><td class=" har">&lt;,001</td></tr>
+<tr><th>Paso 7</th><th>7</th><td class=" hal">Especificado</td><td class=" hal">V25</td><td class=" har">7932,405</td><td class=" har">8007,346</td><td class=" har">7916,405</td><td class=" har">10,914</td><td class=" har">1</td><td class=" har">&lt;,001</td></tr>
+</tbody>
+<tfoot>
+<tr><td class="caption" colspan="10">Método por pasos: Avanzar por pasos</td></tr>
+<tr><td colspan="10">a.&nbsp;El chi-cuadrado para la entrada se basa en la prueba de puntuación.</td></tr>
+<tr><td colspan="10">b.&nbsp;El chi-cuadrado para la eliminación se basa en la prueba de razón de verosimilitud.</td></tr>
+</tfoot>
+</table>
+</div>
+</div>
+<div>
+<table class="pivot" data-rows="1,0,2,2,0,0" data-cols="1,6" data-heights="24,0,68,38,0" data-widths="109,595" data-curCounts="2,6" data-curSizess="2,6">
+<caption colspan="7">Información de ajuste de los modelos</caption>
+<thead>
+<tr><th class="cornerLabels" rowspan="2">Modelo</th><th colspan="3">Criterios de ajuste de modelo</th><th colspan="2">Pruebas de la razón de verosimilitud</th></tr>
+<tr><th>AIC</th><th>normalizado</th><th>Logaritmo de la verosimilitud -2</th><th>Chi-cuadrado</th><th>gl</th><th>Sig.</th></tr>
+</thead>
+<tbody data-rect="0,1,0,5">
+<tr><th style="min-width:109px">Sólo intersección</th><td class=" har" style="min-width:73px">45515,754</td><td class=" har" style="min-width:82px">45525,122</td><td class=" har" style="min-width:98px">45513,754</td><td class=" hal" style="min-width:89px">&nbsp;</td><td class=" hal" style="min-width:72px">&nbsp;</td><td class=" hal" style="min-width:72px">&nbsp;</td></tr>
+<tr><th>Final</th><td class=" har">7932,405</td><td class=" har">8007,346</td><td class=" har">7916,405</td><td class=" har">37597,349</td><td class=" har">7</td><td class=" har">&lt;,001</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<table class="pivot" data-rows="1,0,0,3,0,0" data-cols="1,1" data-heights="41,0,0,57,0" data-widths="77,145" data-curCounts="3,1" data-curSizess="3,1">
+<caption colspan="2">Pseudo R cuadrado</caption>
+<thead>
+</thead>
+<tbody data-rect="0,2,0,0">
+<tr><th style="min-width:77px">Cox y Snell</th><td class=" har" style="min-width:68px">,353</td></tr>
+<tr><th>Nagelkerke</th><td class=" har">,862</td></tr>
+<tr><th>McFadden</th><td class=" har">,826</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<table class="pivot" data-rows="1,0,2,8,0,1" data-cols="2,8" data-heights="24,0,53,152,20" data-widths="130,741" data-curCounts="8,8" data-curSizess="8,8">
+<caption colspan="10">Estimaciones de parámetro</caption>
+<thead>
+<tr><th class="cornerLabels" rowspan="2" colspan="2" title="a. La categoría de referencia es: 1.">Class<sup>a</sup></th><th rowspan="2">B</th><th rowspan="2">Desv. Error</th><th rowspan="2">Wald</th><th rowspan="2">gl</th><th rowspan="2">Sig.</th><th rowspan="2">Exp(B)</th><th>95% de intervalo de confianza para Exp(B)</th></tr>
+<tr><th>Límite inferior</th><th>Límite superior</th></tr>
+</thead>
+<tbody data-rect="0,7,0,7">
+<tr><th rowspan="8" style="min-width:49px">0</th><th style="min-width:81px">Intersección</th><td class=" har" style="min-width:68px">,714</td><td class=" har" style="min-width:75px">,040</td><td class=" har" style="min-width:68px">311,212</td><td class=" har" style="min-width:68px">1</td><td class=" har" style="min-width:68px">&lt;,001</td><td class=" hal" style="min-width:68px">&nbsp;</td><td class=" hal" style="min-width:98px">&nbsp;</td><td class=" hal" style="min-width:98px">&nbsp;</td></tr>
+<tr><th>V4</th><td class=" har">-2,015</td><td class=" har">,058</td><td class=" har">1221,054</td><td class=" har">1</td><td class=" har">&lt;,001</td><td class=" har">,133</td><td class=" har">,119</td><td class=" har">,149</td></tr>
+<tr><th>V5</th><td class=" har">,222</td><td class=" har">,049</td><td class=" har">20,794</td><td class=" har">1</td><td class=" har">&lt;,001</td><td class=" har">1,248</td><td class=" har">1,135</td><td class=" har">1,373</td></tr>
+<tr><th>V8</th><td class=" har">,773</td><td class=" har">,068</td><td class=" har">129,835</td><td class=" har">1</td><td class=" har">&lt;,001</td><td class=" har">2,166</td><td class=" har">1,896</td><td class=" har">2,474</td></tr>
+<tr><th>V12</th><td class=" har">2,499</td><td class=" har">,077</td><td class=" har">1044,325</td><td class=" har">1</td><td class=" har">&lt;,001</td><td class=" har">12,165</td><td class=" har">10,455</td><td class=" har">14,156</td></tr>
+<tr><th>V13</th><td class=" har">,199</td><td class=" har">,031</td><td class=" har">40,814</td><td class=" har">1</td><td class=" har">&lt;,001</td><td class=" har">1,220</td><td class=" har">1,148</td><td class=" har">1,297</td></tr>
+<tr><th>V14</th><td class=" har">3,097</td><td class=" har">,067</td><td class=" har">2160,730</td><td class=" har">1</td><td class=" har">&lt;,001</td><td class=" har">22,139</td><td class=" har">19,429</td><td class=" har">25,228</td></tr>
+<tr><th>V25</th><td class=" har">-,114</td><td class=" har">,035</td><td class=" har">10,904</td><td class=" har">1</td><td class=" har">&lt;,001</td><td class=" har">,892</td><td class=" har">,834</td><td class=" har">,955</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="10">a.&nbsp;La categoría de referencia es: 1.</td></tr>
+</tfoot>
+</table>
+</div>
+</div><div class="logItem"><head><style type="text/css">p{color:0;font-family:Monospaced;font-size:12pt;font-style:normal;font-weight:normal;text-decoration:none}</style></head><BR><BR>End of job:  52 command lines  0 errors  0 warnings  3 CPU seconds</div>
+</body>
+</html>
