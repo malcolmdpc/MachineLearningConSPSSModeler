@@ -4,10 +4,11 @@ Modelos de Regresión Logística y K-Means
 
 
 
-<img width="1080" height="1350" alt="Modelo para la detección en tarjetas de crédito - kmeans" src="https://github.com/user-attachments/assets/b7ded3ac-ed56-4665-902c-df79fb282ccd" />
 
-<img width="1080" height="1350" alt="Logistica" src="https://github.com/user-attachments/assets/fbd23c5f-10ee-4f3a-8291-61e9dc0b75cf" />
-<img width="1080" height="1350" alt="DBSCAN" src="https://github.com/user-attachments/assets/15322750-efa9-4fd9-9f45-98e5c0af6d0e" />
+<img width="1080" height="1350" alt="Logistica" src="https://github.com/user-attachments/assets/f9ff0e2c-c8f1-4995-b46d-ac2a93e89acb" />
+<img width="1080" height="1350" alt="DBSCAN" src="https://github.com/user-attachments/assets/2bdeff45-b7dc-4bbe-9091-f4520707bd71" />
+<img width="1080" height="1350" alt="k-means" src="https://github.com/user-attachments/assets/df046322-8737-48a1-84c9-969724ec0fca" />
+
 
 
 />-->
